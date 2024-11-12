@@ -102,13 +102,37 @@ This is called a <a href=https://en.wikipedia.org/wiki/Random_walk>Random Walk</
 layout: iframe-left
 
 # the web page source
-url: https://creative.nicole.computer/2024-11-08-mouse-walker/
+url: https://creative.nicole.computer/presentation-friend/memory/
 ---
 
-# A little memory
+# A little memory 🥦
 
-- Introduce oversampling
-- A simple way to reduce oversampling without putting too much burden on the explorer
+<v-click>
+```typescript{all|1-3|5|8-11|all}
+// moves has all available moves
+//   without moving Friend off the board
+let moves = ["UP", "RIGHT", "UP-RIGHT"]
+
+moves = moves.filter((move) => {
+  const proposedLocation = locationToString(
+    this.locationOfMove(move));
+
+  return !history
+    .map(locationToString)
+    .includes(proposedLocation);
+});
+```
+</v-click>
+
+<v-click>
+<h3>How to forget</h3>
+
+```typescript
+  if (this.memory.length > 2) {
+    this.memory = this.memory.slice(1);
+  }
+```
+</v-click>
 
 ---
 layout: iframe-left
