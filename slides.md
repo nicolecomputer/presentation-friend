@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: cover.jpg
+background: /cover.jpg
 title: Storytime- Friend
 info: |
   ## Random Walker
@@ -21,7 +21,7 @@ A story about Friend
 
 ---
 layout: image-left
-image: friend-headshot.jpg
+image: /friend-headshot.jpg
 ---
 
 # This is Friend
