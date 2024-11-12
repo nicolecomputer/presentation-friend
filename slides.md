@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: cover.jpg
 title: Storytime- Friend
 info: |
   ## Random Walker
@@ -21,7 +21,7 @@ A story about Friend
 
 ---
 layout: image-left
-image: https://cover.sli.dev
+image: friend-headshot.jpg
 ---
 
 # This is Friend
@@ -34,7 +34,8 @@ Important facts:
   <li><v-click>All other creatures that look like them is a cousin</v-click></li>
 </ol>
 
-<v-click>But most importantly...</v-click>
+<br/>
+<v-click>Let's look in Friend's mind...</v-click>
 
 
 ---
@@ -91,6 +92,13 @@ class: my-cool-content-on-the-right
 
 
 ---
+layout: center
+---
+
+# Friend gets the gummy
+
+---
+layout: center
 ---
 
 # Until next time
