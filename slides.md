@@ -111,7 +111,7 @@ url: https://creative.nicole.computer/presentation-friend/memory/
 ```typescript{all|1-3|5|8-11|all}
 // moves has all available moves
 //   without moving Friend off the board
-let moves = ["UP", "RIGHT", "UP-RIGHT"]
+let moves = [...]
 
 moves = moves.filter((move) => {
   const proposedLocation = locationToString(
@@ -124,46 +124,55 @@ moves = moves.filter((move) => {
 ```
 </v-click>
 
-<v-click>
-<h3>How to forget</h3>
-
-```typescript
-  if (this.memory.length > 2) {
-    this.memory = this.memory.slice(1);
-  }
-```
-</v-click>
 
 ---
 layout: iframe-left
 
 # the web page source
-url: https://creative.nicole.computer/2024-11-08-mouse-walker/
+url: https://creative.nicole.computer/presentation-friend/levy-flight/
 ---
 
 # Lévy flight
 
-- Another technique friend has recently learned
-- Look around but occasionally take a big jump and go explore somewhere else
-- Still get stuck
+```typescript{all|1-6|24|7-14|15-23|all}
+if (this.state.type == "explore") {
+  availableMoves = this.canMove(width, height);
+} else if (this.state.type == "walk") {
+  availableMoves = [this.state.move];
+}
+
+if (this.state.type === "walk") {
+  this.state.timeLeft -= 1;
+
+  if (this.state.timeLeft === 0) {
+    this.state = { type: "explore" };
+  }
+}
+
+if (this.state.type === "explore"
+    && floor(random(1, 100)) > 90) {
+  this.state = {
+    type: "walk",
+    timeLeft: 10,
+    move: random(["UP", "DOWN", "LEFT", "RIGHT"]),
+  };
+}
+
+this.move(random(availableMoves));
+```
 
 
 ---
-layout: center
+layout: iframe-left
+url: https://creative.nicole.computer/presentation-friend/happiness/
 ---
 
-# Friend gets the gummy
+# Finding happiness
+<p></p>
 
-- With enough exploring friend does get the gummy
-- It makes them very happy
+<p>Some days you get the watermelon gummy 🍉,<br/>
+Some days you don't 😢,<br/>
+We leave room for both 🌤️</p>
 
----
-layout: center
----
+<p>Until next time 💜</p>
 
-# Until next time
-
-Someday you get the gummy, somedays you don't
-We leave room for both
-
-Be good to one another
