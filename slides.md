@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: ./theme
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: /cover.jpg
@@ -17,7 +17,7 @@ layout: cover
 
 # Storytime
 
-A story about Friend
+<p style="color: white;">A story about Friend</p>
 
 ---
 layout: image-left
@@ -175,4 +175,3 @@ Some days you don't 😢,<br/>
 We leave room for both 🌤️</p>
 
 <p>Until next time 💜</p>
-
