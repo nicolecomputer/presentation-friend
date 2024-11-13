@@ -18,6 +18,7 @@ layout: cover
 # Storytime
 
 <p style="color: white;">A story about Friend</p>
+<Nametag name="Nicole" />
 
 ---
 layout: image-left
