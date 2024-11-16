@@ -1,16 +1,17 @@
 .nametag {
     background-color: #EF476F;
     width: fit-content;
-    height: 160px;
-    width: 300px;
-    transform: rotate(-6deg);
+    height: 200px;
+    width: 340px;
+    transform: rotate(-3deg);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
     border-radius: 10px;
-    transition: transform 300ms ease-out 100ms
+    transition: transform 300ms ease-out 100ms;
+    z-index: 100 !important;
 }
 
 .nametag:hover {
@@ -27,6 +28,7 @@
     font-size: 44px !important;
     background-color: white;
     color: black !important;
+    padding: 20px 0;
     margin: -3px 0;
 }
 

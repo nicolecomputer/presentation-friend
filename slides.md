@@ -19,6 +19,7 @@ layout: cover
 
 <p style="color: white;">A story about Friend</p>
 <Nametag name="Nicole" />
+<Note />
 
 ---
 layout: image-left
@@ -176,3 +177,21 @@ Some days you don't 😢,<br/>
 We leave room for both 🌤️</p>
 
 <p>Until next time 💜</p>
+
+---
+layout: full
+---
+
+# Hello Explorer!
+
+Thanks for taking some time to look through my presentation!
+
+My goal in this talk was to take a different route to showing you about some interesting ideas about random walkers. It's so cool that just a tiny bit of "memory" turns out to make sure a big different in the spaces explored and I wanted to present [Levy flight](https://en.wikipedia.org/wiki/L%C3%A9vy_flight) in a way that felt relatable (who hasn't lost their phone and searched one area for a while before moving on to another).
+
+I hope that you found this approach **entertaining** and that it sparked something in you. How might you use random walkers? As you look around the world what kind of creatures or systems model a random walk? If you found these ideas interesting you might really enjoy [The Nature Of Code Book](https://natureofcode.com/)
+
+**Super quick about me:** I'm Nicole (hi!). I've spent the last nine years at [Khan Academy](https://khanacademy.org) working on the practice experience (quizzes, tests, explorable articles!). I was a software generalist there and spent years working on the mobile app, the web frontend, with some work on the backend as well.
+
+You might enjoy my [note archive](https://notes.nicole.computer), want to peep my [github](https://github.com/nicolecomputer/) or [get in touch](https://form.jotform.com/243200616310136)
+
+💜
