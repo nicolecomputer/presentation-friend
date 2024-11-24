@@ -192,6 +192,6 @@ I hope that you found this approach **entertaining** and that it sparked somethi
 
 **Super quick about me:** I'm Nicole (hi!). I've spent the last nine years at [Khan Academy](https://khanacademy.org) working on the practice experience (quizzes, tests, explorable articles!). I was a software generalist there and spent years working on the mobile app, the web frontend, with some work on the backend as well.
 
-You might enjoy my [note archive](https://notes.nicole.computer), want to peep my [github](https://github.com/nicolecomputer/) or [get in touch](https://form.jotform.com/243200616310136)
+You might enjoy my [note archive](https://notes.nicole.computer), want to peep my [github](https://github.com/nicolecomputer/) or [get in touch](https://contact.lion.computer/?ref=friend-presentation)
 
 💜
